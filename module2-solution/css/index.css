@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    align-items: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+    background-color: lightgray;
+    margin-top: 40px;
+}
+
+h3 {
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+p {
+    clear: both;
+    padding: 5px;
+}
+
+#chickenfloat {
+    width: 100%;
+}
+
+#beefloat {
+    width: 100%;
+}
+
+#sushifloat {
+    width: 100%;
+}
+
+
+@media only screen and (min-width:430px) and (max-width:769px) {
+    #chickenfloat {
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 45%;
+    }
+
+    #beefloat {
+        float: left;
+        margin-right: 20px;
+        width: 45%;
+    }
+
+    #sushifloat {
+        clear: both;
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 92%;
+    }
+
+};
+
+@media only screen and (min-width:770px) {
+    #chickenfloat {
+        float: left;
+        width:30%;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    #sushifloat {
+        float: left;
+        width: 30%;
+    }
+
+    #beefloat {
+        float: left;
+        width: 30%;
+        margin-right: 20px;
+    }
+};
+
