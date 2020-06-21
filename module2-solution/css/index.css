@@ -12,6 +12,18 @@ section {
     margin-top: 40px;
 }
 
+#chicken{
+    background-color: pink;
+}
+
+#beef{
+    background-color: red;
+}
+
+#sushi{
+    background-color: yellow;
+}
+
 h3 {
     float: right;
     border-left: 2px solid black;
@@ -62,7 +74,7 @@ p {
         width: 92%;
     }
 
-};
+}
 
 @media only screen and (min-width:770px) {
     #chickenfloat {
@@ -82,5 +94,5 @@ p {
         width: 30%;
         margin-right: 20px;
     }
-};
+}
 
