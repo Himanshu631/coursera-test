@@ -1,98 +1,66 @@
-h1 {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-section {
-    align-items: center;
-    border: 2px solid black;
-    width: 30%;
-    height: 200px;
-    background-color: lightgray;
-    margin-top: 40px;
-}
-
-#chicken{
-    background-color: pink;
-}
-
-#beef{
-    background-color: red;
-}
-
-#sushi{
-    background-color: yellow;
-}
-
-h3 {
-    float: right;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    padding-top: 0px;
-    margin-top: 0px;
-    width: 120px;
-    text-align: center;
-}
-
-p {
-    clear: both;
-    padding: 5px;
-}
-
-#chickenfloat {
-    width: 100%;
-}
-
-#beefloat {
-    width: 100%;
-}
-
-#sushifloat {
-    width: 100%;
-}
-
-
-@media only screen and (min-width:430px) and (max-width:769px) {
-    #chickenfloat {
-        float: left;
-        margin-left: 40px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        width: 45%;
-    }
-
-    #beefloat {
-        float: left;
-        margin-right: 20px;
-        width: 45%;
-    }
-
-    #sushifloat {
-        clear: both;
-        margin-left: 40px;
-        margin-top: 40px;
-        width: 92%;
-    }
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
 
 }
+article{
+	position: relative;
+	margin: 10px;
+}
+p{
+	border: 2px solid black;
+	padding: 30px;
+	background-color: lightgray;
+}
+h3{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 2px solid black;
+	width: 40%;
+	height: 35px;
+	text-align: center;
+    margin: 0px;
+}
+#Chicken{
+	background-color: pink;
+}
+#Beef{
+	background-color: brown;
+}
+#Sushi{
+	background-color: yellow;
+}
+section{
+	width: 95%;
+    margin-right: auto;
+    margin-left: auto; 
+}
 
-@media only screen and (min-width:770px) {
-    #chickenfloat {
-        float: left;
-        width:30%;
-        margin-left: 40px;
-        margin-right: 20px;
-    }
+@media (min-width: 900px){
+	.laptopbody{
+		float: left;
+		width: 33%;
+	}
+}
 
-    #sushifloat {
-        float: left;
-        width: 30%;
-    }
+@media (min-width: 700px) and (max-width: 899px){
+	.tabletbody,.tabletbodysushi{
+		float: left;
+	}
+	.tabletbody{
+		width: 50%;
+	}
+	.tabletbodysushi{
+		width: 100%;
+	}
+}
 
-    #beefloat {
-        float: left;
-        width: 30%;
-        margin-right: 20px;
-    }
+@media(max-width: 699px){
+	.mobilebody{
+		float: left;
+		width: 100%;
+	}
 }
 
